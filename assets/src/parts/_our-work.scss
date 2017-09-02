@@ -1,0 +1,54 @@
+.main {
+	&__work {
+		&__container {
+		}
+		&__subtitle {
+			padding-top: 120px;
+			padding-bottom: 80px;
+			color: #222222;
+			font-family: $secondary-font-family;
+			font-size: 35px;
+			font-weight: 700;
+			line-height: 60px;
+			text-transform: uppercase;
+			text-align: center;
+		}
+		&__line {
+			width: 86px;
+			height: 2px;
+			background-color: #222222;
+			margin: 0 auto;
+			margin-bottom: 90px;
+		}
+		&__flex-items {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			list-style: none;
+			margin-bottom: 100px;	
+           
+}
+		&__form {
+			display: flex;
+			justify-content: center;
+			&-button {
+				background-color: transparent;
+				margin-bottom: 100px;
+				border: 3px solid black;
+				padding: 15px 148px;
+				font-family: $main-font-family;
+				font-size: 24px;
+				font-weight: 400;
+				text-transform: uppercase;	
+				transition: all .3s ease;
+					&:hover {
+						cursor: pointer;
+						border: 3px solid black;
+						background-color: black;
+						color: white;
+					}		
+			}
+		}
+
+	}
+}
